@@ -13,3 +13,9 @@
 .orders {
   width: 100%;
 }
+
+.no_orders {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 50px;
+}
