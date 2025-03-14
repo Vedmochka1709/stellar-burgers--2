@@ -1,6 +1,6 @@
-import { getFeedsApi } from '@api';
+import { getFeedsApi } from '../../utils/burger-api';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { TOrder } from '@utils-types';
+import { TOrder } from '../../utils/types';
 
 // Создание асинхронных экшенов
 export const fetchFeeds = createAsyncThunk(
@@ -16,7 +16,7 @@ type TFeedState = {
   error: string | null;
 };
 
-const initialState: TFeedState = {
+export const initialState: TFeedState = {
   orders: [],
   total: 0,
   totalToday: 0,

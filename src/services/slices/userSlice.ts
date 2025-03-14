@@ -8,10 +8,10 @@ import {
   TLoginData,
   TRegisterData,
   updateUserApi
-} from '@api';
+} from '../../utils/burger-api';
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
-import { TUser } from '@utils-types';
-import { getCookie, setCookie } from '../../utils/cookie';
+import { TUser } from '../../utils/types';
+import {setCookie } from '../../utils/cookie';
 
 // Создание асинхронных экшенов
 
@@ -102,7 +102,7 @@ type TUserState = {
   loading: boolean;
 };
 
-const initialState: TUserState = {
+export const initialState: TUserState = {
   userData: null,
   registerData: {
     email: '',
