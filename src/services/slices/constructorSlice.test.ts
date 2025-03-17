@@ -14,9 +14,6 @@ import constructorReducer from './constructorSlice';
 };*/
 
 describe('constructorSlice test', () => {
-  /*beforeEach(() => {
-        store.dispatch({ type: 'RESET_STATE' });
-      });*/
   const ingredient1 = {
     _id: '1',
     id: '1',

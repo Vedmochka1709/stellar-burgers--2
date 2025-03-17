@@ -1,0 +1,31 @@
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "1",
+      "name": "bun",
+      "type": "bun",
+      "proteins": 10,
+      "fat": 5,
+      "carbohydrates": 1,
+      "calories": 400,
+      "price": 120,
+      "image": "ingredient.jpg",
+      "image_large": "ingredient_large.jpg",
+      "image_mobile": "ingredient_mobile.jpg"
+    },
+    {
+      "_id": "2",
+      "name": "ingredient",
+      "type": "ingredient",
+      "proteins": 110,
+      "fat": 7,
+      "carbohydrates": 8,
+      "calories": 200,
+      "price": 1100,
+      "image": "ingredient2.jpg",
+      "image_large": "ingredient_large2.jpg",
+      "image_mobile": "ingredient_mobile2.jpg"
+    }
+  ]
+}

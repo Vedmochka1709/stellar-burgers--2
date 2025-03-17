@@ -8,9 +8,11 @@ import ingredientsReducer from './ingredientsSlice';
 };*/
 
 describe('ingredientSlice test', () => {
-  
   it('action Pending test', () => {
-    const newState = ingredientsReducer(initialState, fetchIngredients.pending(''));
+    const newState = ingredientsReducer(
+      initialState,
+      fetchIngredients.pending('')
+    );
 
     expect(newState.loading).toBe(true);
     expect(newState.error).toBe(null);
@@ -31,7 +33,7 @@ describe('ingredientSlice test', () => {
       image_large: 'ingredient_large.jpg',
       image_mobile: 'ingredient_mobile.jpg'
     };
-  
+
     const ingredient2 = {
       _id: '2',
       id: '2',
@@ -46,9 +48,9 @@ describe('ingredientSlice test', () => {
       image_large: 'ingredient_large2.jpg',
       image_mobile: 'ingredient_mobile2.jpg'
     };
-  
+
     const ingredients = [ingredient1, ingredient2];
-    
+
     const newState = ingredientsReducer(
       initialState,
       fetchIngredients.fulfilled(ingredients, '')
@@ -68,5 +70,4 @@ describe('ingredientSlice test', () => {
     expect(newState.loading).toBe(false);
     expect(newState.error).toBe('error massage');
   });
-
 });
