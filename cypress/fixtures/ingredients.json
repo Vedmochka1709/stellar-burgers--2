@@ -10,22 +10,35 @@
       "carbohydrates": 1,
       "calories": 400,
       "price": 120,
-      "image": "ingredient.jpg",
-      "image_large": "ingredient_large.jpg",
-      "image_mobile": "ingredient_mobile.jpg"
+      "image": "https://code.s3.yandex.net/react/code/bun-02.png",
+      "image_mobile": "https://code.s3.yandex.net/react/code/bun-02-mobile.png",
+      "image_large": "https://code.s3.yandex.net/react/code/bun-02-large.png"
     },
     {
       "_id": "2",
-      "name": "ingredient",
-      "type": "ingredient",
+      "name": "main",
+      "type": "main",
       "proteins": 110,
       "fat": 7,
       "carbohydrates": 8,
       "calories": 200,
       "price": 1100,
-      "image": "ingredient2.jpg",
-      "image_large": "ingredient_large2.jpg",
-      "image_mobile": "ingredient_mobile2.jpg"
+      "image": "https://code.s3.yandex.net/react/code/meat-04.png",
+      "image_mobile": "https://code.s3.yandex.net/react/code/meat-04-mobile.png",
+      "image_large": "https://code.s3.yandex.net/react/code/meat-04-large.png"
+    },
+    {
+      "_id": "3",
+      "name": "sauce",
+      "type": "sauce",
+      "proteins": 110,
+      "fat": 7,
+      "carbohydrates": 8,
+      "calories": 200,
+      "price": 1100,
+      "image": "https://code.s3.yandex.net/react/code/sauce-03.png",
+      "image_mobile": "https://code.s3.yandex.net/react/code/sauce-03-mobile.png",
+      "image_large": "https://code.s3.yandex.net/react/code/sauce-03-large.png"
     }
   ]
 }
